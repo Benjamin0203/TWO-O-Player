@@ -38,6 +38,7 @@ class Game
         self.current_player = player1
       end
     end
+    puts "P1: #{player1.lives}/3 vs P2: #{player2.lives}/3" 
   end
 
   def end_game
